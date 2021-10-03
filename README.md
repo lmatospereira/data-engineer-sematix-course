@@ -1,6 +1,6 @@
-# Como instalar o docker no linux
+# Instalando o docker no linux
 
-## Docker':'
+## Setup':'
 
         sudo apt update
         sudo apt upgrade
@@ -11,21 +11,21 @@
         sudo apt install docker-ce
         sudo systemctl status docker
 
-## Check':'
+### Check:
 
         sudo docker run hello-world
 
-## Sem sudo':'
+### Check(sem sudo):
 
         sudo usermod -aG docker $(whoami)
         sudo reboot
 
-## Docker-Compose':'
+## Docker-Compose:
 
         sudo curl -L https://github.com/docker/compose/releases/download/1.25.3/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
         sudo chmod +x /usr/local/bin/docker-compose
 
-## Check':'
+### Check:
 
         docker-compose --version
         mkdir helloTeste
