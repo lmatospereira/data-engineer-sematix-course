@@ -1,6 +1,6 @@
 # Instalando o docker no linux
 
-## Setup':'
+## Setup:
 
         sudo apt update
         sudo apt upgrade
